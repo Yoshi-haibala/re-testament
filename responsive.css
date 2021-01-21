@@ -10,6 +10,7 @@
  	}
 	.pc {
 		background-image: url(img/02.png);
+		height: 100%;
 	}
 	.top-wrapper h1{
 	  	padding-top: 150px;
