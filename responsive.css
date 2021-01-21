@@ -1,0 +1,64 @@
+/*responsive.css*/
+
+/*スマホサイズ*/
+@media (max-width: 800px) {
+	.head-pc {
+  		display: none;
+	}
+	.head-sp {
+  		display: block;
+ 	}
+	.pc {
+		background-image: url(img/02.png);
+	}
+	.top-wrapper h1{
+	  	padding-top: 150px;
+	  	margin-bottom: -30px;
+	  	letter-spacing: 2px;
+	}
+	.top-wrapper p{
+  	
+	}
+	.btns {
+		padding-top: 150px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.btn {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+/*タブレットサイズ*/
+@media (min-width: 799px) {
+	.head-pc {
+  		display: block;
+	}
+	.head-sp {
+  		display: none;
+	}
+	.pc {
+		background-image: url(img/test.jpg);
+	}
+	.top-wrapper h1{
+	  	padding-top: 150px;
+	  	margin-bottom: -30px;
+	  	letter-spacing: 4px;
+	}
+	.top-wrapper p{
+  	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
